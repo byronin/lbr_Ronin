@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.4.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="3/8_BALL" urn="urn:adsk.eagle:footprint:7705052/1">
+<circle x="4" y="1" radius="6" width="0.127" layer="21"/>
+<circle x="-3.25" y="1" radius="1.802775" width="0.0762" layer="21"/>
+<circle x="11.25" y="1" radius="1.75" width="0.0762" layer="21"/>
+<circle x="-2.7" y="1" radius="1.104534375" width="0.0762" layer="20"/>
+<circle x="10.8" y="1" radius="1.1" width="0.0762" layer="20"/>
+<wire x1="-3.35" y1="2.8" x2="-3.2625" y2="2.8" width="0.0762" layer="21"/>
+<wire x1="-3.2625" y1="2.8" x2="-1.0875" y2="4.1875" width="0.0762" layer="21" curve="65.070101"/>
+<wire x1="11.325" y1="2.75" x2="11.2" y2="2.75" width="0.0762" layer="21"/>
+<wire x1="11.2" y1="2.75" x2="9.3875" y2="3.6375" width="0.0762" layer="21" curve="-52.17781"/>
+<wire x1="-3.3125" y1="-0.8" x2="-3.2375" y2="-0.8" width="0.0762" layer="21"/>
+<wire x1="-3.2375" y1="-0.8" x2="-1.3375" y2="-1.6625" width="0.0762" layer="21" curve="-48.831105"/>
+<wire x1="11.3125" y1="-0.75" x2="11.225" y2="-0.75" width="0.0762" layer="21"/>
+<wire x1="11.225" y1="-0.75" x2="9.15" y2="-2.05" width="0.0762" layer="21" curve="64.134789"/>
+<wire x1="-1.8375" y1="-0.675" x2="-1.7625" y2="-0.8375" width="0.0762" layer="21"/>
+<wire x1="9.375" y1="-1.6" x2="9.55" y2="-1.45" width="0.0762" layer="21"/>
+<wire x1="9.55" y1="-1.45" x2="11" y2="-0.7375" width="0.0762" layer="21" curve="-28.865503"/>
+<wire x1="11" y1="-0.7375" x2="10.025" y2="-0.025" width="0.0762" layer="21" curve="264.212212"/>
+<polygon width="0.0762" layer="21">
+<vertex x="-5.05" y="1.05"/>
+<vertex x="-5.05" y="0.975" curve="319.155315"/>
+<vertex x="-4.6125" y="2.15" curve="38.311063"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="3.9875" y="7"/>
+<vertex x="4.0625" y="7" curve="-191.8987"/>
+<vertex x="2.825" y="-4.875" curve="-69.27518"/>
+<vertex x="-1.9375" y="0.15" curve="-65.872762"/>
+<vertex x="0.675" y="5.9875" curve="-31.792729"/>
+<vertex x="3.975" y="7" curve="-2.321182"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="11.225" y="2.75"/>
+<vertex x="11.2625" y="2.75" curve="-63.008495"/>
+<vertex x="12.8125" y="1.8" curve="-158.997623"/>
+<vertex x="10.075" y="-0.3" curve="-137.305533"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-3.025" y="2.8125"/>
+<vertex x="-2.85" y="2.8375" curve="47.061299"/>
+<vertex x="-1.35" y="3.7625" curve="-279.753959"/>
+<vertex x="-1.3" y="3.225" curve="142.255724"/>
+<vertex x="-1.525" y="3.1125" curve="-49.484219"/>
+<vertex x="-1.8125" y="2.175" curve="-102.443575"/>
+<vertex x="-3" y="2.2375" curve="-66.551829"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="-1.4625" y="-1.525"/>
+<vertex x="-1.575" y="-1.425" curve="39.664246"/>
+<vertex x="-3.1375" y="-0.8" curve="-214.642586"/>
+<vertex x="-3.05" y="-0.55" curve="133.980092"/>
+<vertex x="-2.325" y="-0.125" curve="-262.656582"/>
+<vertex x="-1.7125" y="-0.5375" curve="205.391246"/>
+<vertex x="-1.5375" y="-0.875" curve="-247.042814"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="9.3125" y="-1.6125"/>
+<vertex x="9.6" y="-1.4" curve="0.275681"/>
+<vertex x="10.0375" y="-1.075" curve="-32.894707"/>
+<vertex x="10.95" y="-0.7375" curve="291.279341"/>
+<vertex x="10.25" y="-0.325" curve="289.131623"/>
+<vertex x="10.275" y="-0.1875" curve="-102.770738"/>
+<vertex x="9.975" y="-0.15" curve="247.041555"/>
+<vertex x="9.2875" y="-1.625" curve="72.936087"/>
+<vertex x="9.3125" y="-1.6" curve="323.93441"/>
+<vertex x="9.3" y="-1.625" curve="-90.807782"/>
+<vertex x="9.3125" y="-1.625"/>
+</polygon>
+<polygon width="0.0762" layer="21">
+<vertex x="10.9875" y="2.75"/>
+<vertex x="10.8625" y="2.775" curve="-24.529547"/>
+<vertex x="9.4875" y="3.375" curve="271.87398"/>
+<vertex x="9.65" y="2.4625" curve="-280.648774"/>
+<vertex x="9.6625" y="2.3375" curve="252.965851"/>
+<vertex x="9.6375" y="2.1625" curve="-100.307209"/>
+<vertex x="9.95" y="2.0375" curve="212.229197"/>
+<vertex x="11" y="2.75" curve="79.447052"/>
+<vertex x="10.975" y="2.75" curve="280.552948"/>
+</polygon>
+</package>
+<package name="12MM_MMTOR" urn="urn:adsk.eagle:footprint:7705072/5">
+<wire x1="0" y1="0" x2="0" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="0" y1="11.43" x2="1.27" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="11.43" x2="15.24" y2="11.43" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="11.43" x2="15.24" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="8.89" x2="15.24" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="7.62" x2="15.24" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="3.81" x2="15.24" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="2.54" x2="15.24" y2="0" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="0" x2="1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="11.43" x2="1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="8.89" x2="13.97" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="2.54" x2="13.97" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="3.81" x2="13.97" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="13.97" y1="3.81" x2="13.97" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="13.97" y1="8.89" x2="13.97" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="13.97" y1="7.62" x2="15.24" y2="7.62" width="0.1524" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="12MM_MMTOR" urn="urn:adsk.eagle:package:7705073/9" type="model">
+<packageinstances>
+<packageinstance name="12MM_MMTOR"/>
+</packageinstances>
+</package3d>
+<package3d name="3/8_BALL" urn="urn:adsk.eagle:package:7705053/2" type="model">
+<packageinstances>
+<packageinstance name="3/8_BALL"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
